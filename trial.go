@@ -3,6 +3,7 @@ package main
 import "net/http"
 
 func index(w http.ResponseWriter, r *http.Request) {
+	w.Write([]byte("<h1>Kaleb Mesfin</h1><p>I am sick of programming</p>"))
 }
 
 func main() {
